@@ -1,6 +1,6 @@
 class CreateAuthors < ActiveRecord::Migration[4.2]
   def change
-    create_table :author do |t|
+    create_table :authors do |t|
       t.string :first_name
       t.string :last_name
     end
